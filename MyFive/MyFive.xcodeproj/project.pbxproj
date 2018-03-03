@@ -79,6 +79,7 @@
 		C61B9DF6204A233900E9C6B0 = {
 			isa = PBXGroup;
 			children = (
+				C61B9E32204A234400E9C6B0 /* Controllers */,
 				C61B9E01204A233900E9C6B0 /* MyFive */,
 				C61B9E18204A233A00E9C6B0 /* MyFiveTests */,
 				C61B9E23204A233A00E9C6B0 /* MyFiveUITests */,
@@ -100,8 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				C61B9E02204A233A00E9C6B0 /* AppDelegate.swift */,
-				C61B9E04204A233A00E9C6B0 /* FirstViewController.swift */,
-				C61B9E06204A233A00E9C6B0 /* SecondViewController.swift */,
 				C61B9E08204A233A00E9C6B0 /* Main.storyboard */,
 				C61B9E0B204A233A00E9C6B0 /* Assets.xcassets */,
 				C61B9E0D204A233A00E9C6B0 /* LaunchScreen.storyboard */,
@@ -126,6 +125,15 @@
 				C61B9E26204A233A00E9C6B0 /* Info.plist */,
 			);
 			path = MyFiveUITests;
+			sourceTree = "<group>";
+		};
+		C61B9E32204A234400E9C6B0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C61B9E04204A233A00E9C6B0 /* FirstViewController.swift */,
+				C61B9E06204A233A00E9C6B0 /* SecondViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
